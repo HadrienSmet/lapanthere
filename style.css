@@ -1127,44 +1127,8 @@ h4 {
     font-size: 15px;
     color: #393939;
 }
-/* #1:focus,
-#2:focus,
-#3:focus,
-.4:focus,
-#5:focus,
-#6:focus,
-#7:focus,
-#8:focus,
-#9:focus,
-#10:focus,
-#11:focus,
-#12:focus,
-#13:focus,
-#14:focus,
-#15:focus,
-#16:focus,
-#17:focus,
-#18:focus,
-#19:focus,
-#20:focus,
-#21:focus,
-#22:focus,
-#23:focus,
-#24:focus,
-#25:focus,
-#26:focus,
-#27:focus,
-#28:focus,
-#29:focus,
-#30:focus,
-#31:focus,
-#32:focus,
-#33:focus,
-#34:focus,
-#35:focus,
-#36:focus */
 *:focus{
-    transform: scale(1.1);
+    transform: scale(1.2);
 } 
 .row.social {
     display: flex;
