@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -28,6 +28,16 @@
 
 
 	<!-- Analytics -->
+
+	<!-- Google tag (gtag.js) -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-79DV74BHJC"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-79DV74BHJC');
+		</script>	 -->
 
 	<!-- Analytics END -->
 
@@ -94,10 +104,9 @@
 				<!-- bloc-7 -->
 				<div class="bloc bgc-white l-bloc" id="bloc-7">
 					<div class="container bloc-lg">
-						<div class="row">
-							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Your message has been sent."
-									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<div>
+							<div>
+								<form id="form_1" novalidate>
 									<div class="form-group" id="namediv">
 										<label id="name-label" for="name">
 											Nom
@@ -119,7 +128,7 @@
 									<div class="form-group" id="messagediv">
 										<label id="message-label" for="message">
 											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-										</label><textarea value="" id="message" class="form-control" rows="4" cols="50"
+										</label><textarea id="message" class="form-control" rows="4" cols="50"
 											required></textarea>
 									</div>
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
@@ -128,7 +137,7 @@
 									</button>
 								</form>
 							</div>
-							<div class="col-sm-6" id="contactinf">
+							<div id="contactinf">
 								<p>
 									contact@agencelapanthere.com<br>
 									2 place Sathonay 69001 Lyon<br>
